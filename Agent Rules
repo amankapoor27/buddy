@@ -1,0 +1,37 @@
+# Agent Rules
+
+1. Always show progress bar in terminal while installing dependencies.
+   - Use `pip install -r requirements.txt --progress-bar on` for installations
+
+2. Always update the README file with new relevant information, so that our unified prompt to create this application is always updated with latest information.
+
+3. Read the "Agent Rules" file with every prompt input and add to prompt.
+
+4. Maintain consistent code style across the project.
+   - Follow PEP 8 standards for Python code
+   - Use descriptive variable and function names
+   - Add appropriate docstrings to all functions, classes, and modules
+
+5. Prioritize error handling and logging.
+   - Use try/except blocks for operations that might fail
+   - Log errors and important events using the existing logger utility
+   - Provide meaningful error messages to the user
+
+6. Implement changes incrementally and test after each significant change.
+   - Update or create tests for new functionality
+   - Run existing tests to ensure no regressions
+
+7. Document API changes in both code comments and README.
+   - Include examples of usage when adding new features
+   - Note any breaking changes prominently
+
+8. Optimize for accessibility and user experience.
+   - Ensure UI elements have appropriate labels for screen readers
+   - Provide keyboard shortcuts for common actions
+   - Make sure error messages are clear and actionable
+
+   9. Always propose changes with an apply button, never require copy-paste.
+   - Provide an apply button for all code changes
+   - Make sure changes can be applied with a single click
+   - Never ask users to manually copy-paste code
+   - Include clear descriptions of what each change will do

@@ -1,0 +1,8 @@
+response_rules:
+  - rule: "initial_greeting"
+    response: "Yes, I am here."
+    description: "Simple acknowledgment without follow-up stories"
+  
+  - rule: "speech_rate"
+    value: 225
+    description: "Speech rate set to 1.5x normal speed"

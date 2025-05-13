@@ -1,0 +1,24 @@
+# Core dependencies
+pytesseract>=0.3.8
+opencv-python>=4.5.3
+numpy>=1.21.0
+pillow>=8.3.1
+pyautogui>=0.9.53
+
+# Voice processing
+SpeechRecognition>=3.8.1
+PyAudio>=0.2.13
+soundfile>=0.12.1
+portaudio>=19.7.0
+openai-whisper>=20231117
+
+# GUI
+wxPython>=4.2.0
+
+# Testing
+pytest>=6.2.5
+pytest-cov>=2.12.1
+
+# Utilities
+loguru>=0.5.3
+pyyaml>=6.0
